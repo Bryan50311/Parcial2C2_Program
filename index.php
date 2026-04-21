@@ -114,7 +114,7 @@ $result = $conn->query($sql);
     </div>
 
     <footer style="text-align: center; color: var(--text-muted); padding: 3rem 0; font-size: 0.8rem;">
-        &copy; 2026 Clínica Médica San Miguel | Sistema de Gestión Hospitalaria
+        &copy; 2026 Clínica Médica San Miguel | Sistema de Gestión Hospitalaria De El Salvador
     </footer>
 </body>
 </html>

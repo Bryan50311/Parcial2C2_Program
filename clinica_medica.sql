@@ -39,7 +39,7 @@ CREATE TABLE `citas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Volcado de datos para la tabla `citas`
+-- Volcado de datos para la tabla "citas"
 --
 
 INSERT INTO `citas` (`id`, `paciente`, `telefono`, `id_especialidad`, `fecha`, `hora`, `urgencia`, `observaciones`) VALUES
@@ -106,7 +106,7 @@ INSERT INTO `usuarios` (`id`, `nombre_completo`, `usuario`, `clave`, `rol`) VALU
 --
 
 --
--- Indices de la tabla `citas`
+-- Indices de la tabla "citas"
 --
 ALTER TABLE `citas`
   ADD PRIMARY KEY (`id`),
@@ -152,7 +152,7 @@ ALTER TABLE `usuarios`
 --
 
 --
--- Filtros para la tabla `citas`
+-- Filtros para la tabla "citas"
 --
 ALTER TABLE `citas`
   ADD CONSTRAINT `fk_especialidad` FOREIGN KEY (`id_especialidad`) REFERENCES `especialidades` (`id`) ON DELETE CASCADE;
