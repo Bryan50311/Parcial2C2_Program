@@ -46,6 +46,7 @@ Al manejar datos de salud en una zona tan importante como San Miguel, los riesgo
 ---
 
 ## Créditos
-**Estudiante:** Kevin (Parcial 2)  
+**Estudiante:** Kevin Antonio Castro Araujo (SMSS032024) 
+**Estudiante:** Brayan Adaly Campos Martinez (SMSS046824) 
 **Institución:** Universidad Gerardo Barrios (UGB)  
 **Zona:** San Miguel, El Salvador.
