@@ -43,7 +43,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container login-screen">
         <div class="card login-container" style="padding: 3rem;">
             <div style="text-align: center; margin-bottom: 2.5rem;">
-                <div class="logo" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Clínica San Miguel</div>
+                <div class="logo" style="font-size: 1.5rem; margin-bottom: 0.5rem; justify-content: center;">
+                    <img src="logo.png" alt="Logo" class="logo-img" style="height: 80px;">
+                    Clínica San Miguel
+                </div>
                 <p style="color: var(--text-muted); font-size: 0.9rem;">Ingrese al sistema hospitalario</p>
             </div>
             
