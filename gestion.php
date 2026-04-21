@@ -67,7 +67,10 @@ $especialidades_res = $conn->query("SELECT * FROM especialidades ORDER BY nombre
     <header>
         <nav>
             <div class="container" style="margin:0 auto;">
-                <div class="logo">Clínica San Miguel</div>
+                <div class="logo">
+                    <img src="logo.png" alt="Logo" class="logo-img">
+                    Clínica San Miguel
+                </div>
                 <div class="nav-links">
                     <a href="index.php">Cancelar y Volver</a>
                 </div>
