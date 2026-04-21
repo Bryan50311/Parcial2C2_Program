@@ -31,7 +31,10 @@ $result = $conn->query($sql);
     <header>
         <nav>
             <div class="container" style="margin:0 auto;">
-                <div class="logo">Clínica San Miguel</div>
+                <div class="logo">
+                    <img src="logo.png" alt="Logo" class="logo-img">
+                    Clínica San Miguel
+                </div>
                 <div class="nav-links">
                     <a href="index.php">Dashboard</a>
                     <?php if ($rol == 'admin'): ?>
@@ -114,7 +117,7 @@ $result = $conn->query($sql);
     </div>
 
     <footer style="text-align: center; color: var(--text-muted); padding: 3rem 0; font-size: 0.8rem;">
-        &copy; 2026 Clínica Médica San Miguel | Sistema de Gestión Hospitalaria De El Salvador
+        &copy; 2026 Clínica Médica San Miguel | Sistema de Gestión Hospitalaria
     </footer>
 </body>
 </html>
